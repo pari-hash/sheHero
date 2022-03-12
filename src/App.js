@@ -1,4 +1,4 @@
-import {React,  Component } from "react";
+import { React, Component } from "react";
 import { BrowserRouter as Routes, Switch, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/Home/Home";
@@ -8,6 +8,7 @@ import CardList from "./components/Cards/CardList";
 
 import About from "./components/About/About"
 import CardEle from "./components/CardsPages/CardEle";
+
 class App extends Component {
   constructor() {
     super();
@@ -31,18 +32,19 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
-       {this.state.route ==='home'
-        ?<div>
+        {this.state.route === 'home'
+          ? <div>
             <Home />
             <CardList />
-            <About/>
+            <About />
           </div>
-        :<SignIn />
-    }
+          : <SignIn />
+        }
         {/* <Routes>
       <Route exact path="/shows" element={  <CardEle />} />    
        </Routes> */}
-    </div>
+
+      </div >
     );
   }
 }
