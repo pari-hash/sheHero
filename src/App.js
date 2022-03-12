@@ -9,6 +9,7 @@ import CardList from "./components/Cards/CardList";
 import About from "./components/About/About"
 import CardEle from "./components/CardsPages/CardEle";
 
+import Schemes from "./components/CardsPages/Schemes";
 class App extends Component {
   constructor() {
     super();

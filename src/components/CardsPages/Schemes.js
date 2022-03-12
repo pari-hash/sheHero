@@ -4,7 +4,7 @@ import { Card, ListGroup, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./CardPages.styles.css";
 
-function CardEle() {
+function Schemes() {
   return (
     <div id="small2">
       <h1 class="heading">List of all Government Schemes for Women</h1>
@@ -118,4 +118,4 @@ function CardEle() {
   );
 }
 
-export default CardEle;
+export default Schemes;
