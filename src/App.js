@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Home from './components/Home/Home';
 import SignIn from "./components/SignIn/SignIn";
 import Register from "./components/Register/Register";
+import CardList from'./components/Cards/CardList';
 class App extends Component{
   constructor()
 {
@@ -28,6 +29,7 @@ onRouteChange=(route)=>
         <Home />
         {/* <SignIn/> */}
         {/* <Register/> */}
+        <CardList/>
       </div>
     );
   }

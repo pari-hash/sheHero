@@ -9,9 +9,9 @@ const Navigation = () => {
       </nav>
       <nav style={{ display:'flex',justifyContent: "center" }}>
         <p className="f3 link dim black underline pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>Jobs</p>
-        <p className="f3 link dim black underline pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>About us</p>
-        <p className="f3 link dim black underline pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>Reviews</p>
+        <p className="f3 link dim black underline pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>Opportunity</p>
         <p className="f3 link dim black underline pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>Blogs/Posts</p>
+        <p className="f3 link dim black underline pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>Government Schemes</p>
         <p className="f3 link dim black underline pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>Crisis Hotline</p>
       </nav>
       <nav style={{ display:'flex',justifyContent: "flex-end" }}>
