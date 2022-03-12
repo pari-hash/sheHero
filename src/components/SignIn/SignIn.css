@@ -2,13 +2,10 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #181818;
+    color: #fedcb0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /*
-    background: #6f6f6f;  
-    background: linear-gradient(to right, #243B55, #19253b);*/ 
-background-image: 'url("photos/abstract-gbdcac0936_1920.png")';
-background-size: cover;
+    background: #385b66;  
+    /*background: linear-gradient(to right, #243B55, #19253b);*/ 
     display: flex;
     align-items: center;  
     justify-content: center;  
@@ -18,23 +15,21 @@ background-size: cover;
 
 .submit:hover{
     cursor: pointer;
-    background-color: #2e151bb4;
+    color:#ffffff59;
+    background-color: #a4c4e9;
 }
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-        width: 65rem;
-        border: none;
-        border-radius: 2rem;
-        background: rgba( 255, 255, 255, 0.2 );
-        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 12px );
-        -webkit-backdrop-filter: blur( 12px );
-        border-radius: 10px;
-        border: 1px solid rgba( 255, 255, 255, 0.18 );
-    }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 60%;
+    border: none;
+    border-radius: 2rem;
+    background: #385b66;
+    box-shadow:  13px 13px 27px #080c13, -13px -13px 27px #20304d;
+}
 .start{
     display: flex;
     justify-content: center;
@@ -61,7 +56,7 @@ input{
     background: none;
     outline: none;
     border: none;
-    color: #181818;
+    color: #fedcb0;
     font-size: 0.8rem;
 }
 .input{
@@ -75,30 +70,23 @@ input{
     border: none;
     height: 1.7rem;
     width: 18rem;
-    color: #181818;
+    color: #fedcb0;
     border-radius: 1.5rem;
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: #385b66;
+    box-shadow:  6px 6px 12px #080c13,
+             -6px -6px 12px #20304d;
 }
 .submit{
     margin: 2rem;
     margin-bottom: 0.5rem;
     border: none;
-    height: 2rem;
-    width: 7rem;
-    color: #ffffff;
+    height: 1.5rem;
+    width: 5rem;
+    color: #fedcb0;
     border-radius: 1.5rem;
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
-    border-radius: 2rem;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    background-color: #2E151B;
+    background: #385b66;
+    box-shadow:  6px 6px 12px #080c13,
+             -6px -6px 12px #20304d;
 }
 svg{
     height: 20px;
@@ -121,18 +109,15 @@ button{
     text-align: center;
     height: 1.5rem;
     width: 6rem;
-    color: #181818;
+    color: #fedcb0;
     border-radius: 1.5rem;
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 12px );
-    -webkit-backdrop-filter: blur( 12px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: #385b66;
+    box-shadow:  6px 6px 12px #080c13,
+             -6px -6px 12px #20304d;
 }
 a{margin-top:0;
     text-decoration: none;
-    color: #ffffff;
+    color: #fedcb0;
 }
 .end{
     display: flex;
@@ -147,28 +132,9 @@ a{margin-top:0;
 
 a{
     text-decoration: none;
-    color: #ffffff;
+    color: #fedcb0;
 }
 a:hover{
     cursor: pointer;
-    /* color:#ffffff59; */
-    color: #ffffff;
-}
-.bg{
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 35%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.8rem;
-}
-.c1{
-    width: 35%;
-    height: 100%;
-}
-hr{
-    margin-top: 3.5rem;
-    border-top: 1px solid black;
+    color:#ffffff59;
 }
