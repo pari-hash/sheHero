@@ -33,8 +33,8 @@ onRouteChange=(route)=>
         <Home />
         {/* <SignIn/> */}
         {/* <Register/> */}
-        <About/>
         <CardList/>
+        <About/>
       </div>
     );
   }
