@@ -5,14 +5,13 @@ import Home from "./components/Home/Home";
 import SignIn from "./components/SignIn/SignIn";
 import Register from "./components/Register/Register";
 import CardList from "./components/Cards/CardList";
-
 import About from "./components/About/About"
 import CardEle from "./components/CardsPages/CardEle";
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      route: 'signin',
+      route: 'home',
       isSignedIn: false,
     };
     this.onRouteChange = this.onRouteChange.bind(this);
@@ -36,12 +35,12 @@ class App extends Component {
             <Home />
             <CardList />
             <About/>
+            <Routes>
+             <Route exact path="/shows" element={  <CardEle />} />    
+           </Routes>
           </div>
-        :<SignIn />
+        :<SignIn onRouteChange={this.onRouteChange}/>
     }
-        <Routes>
-      <Route exact path="/shows" element={  <CardEle />} />    
-       </Routes>
     </div>
     );
   }
