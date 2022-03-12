@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import { Card, ListGroup, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import "../styles.css";
+import "./CardPages.styles.css";
 
 function CardEle() {
   return (

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import {React,  Component } from "react";
 import { BrowserRouter as Routes, Switch, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Home from './components/Home/Home';
@@ -9,6 +9,7 @@ import About from "./components/About/About"
 
 import CardList from'./components/Cards/CardList';
 import CardEle from "./components/CardsPages/CardEle";
+// import Footer from "./components/Footer/footer.component";
 
 class App extends Component{
   constructor()
@@ -37,10 +38,10 @@ onRouteChange=(route)=>
         {/* <Register/> */}
         <CardList/>
         <About/>
-        
-        <Routes>
+        {/* <Footer/> */}
+        {/* <Routes>
       <Route exact path="/shows" element={  <CardEle />} />    
-  </Routes>
+  </Routes> */}
       </div>
     );
   }
