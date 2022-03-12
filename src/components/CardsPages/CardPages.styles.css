@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#small2 {
+  width: 100%;
+  /* margin: auto; */
+  padding: 0px 0px 40px 40px;
+  background-color: #385b66;
+  color: #c5e4ac;
+ 
+}
+
+.card-list {
+  align-items: center;
+  background-color: #385b66;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  box-shadow:  1px 1px 27px #2b4750, -1px -1px 27px #20304d;
+  border-radius: 20px;
+}
+
+.card-img-side {
+  padding-left: 10px;
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  /* color: #9ab981; */
+}
+
+.heading {
+ text-align: center;
+ padding-bottom: 30px;
+ margin-left: 3rem;
+ margin-right: 3rem;
+ /* color: #9ab981; */
+}
