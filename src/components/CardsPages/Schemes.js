@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./style.css";
 import "./CardPages.styles.css";
 
-const CardEle=() =>{
+const Schemes=() =>{
   return (
     <div id="small2">
       <h1 className="heading">List of all Government Schemes for Women</h1>
@@ -118,4 +118,4 @@ const CardEle=() =>{
   );
 }
 
-export default CardEle;
+export default Schemes;
