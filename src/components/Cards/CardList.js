@@ -42,7 +42,7 @@ const CardList = () => {
            <img alt='robots' src={require('./coming.png')}/>
            <div>
                <h2>Coming Soon</h2>
-               <p className="f5">This card is currently under construction will be coming soon.</p>
+               <p className="f5">This card is currently under construction will be coming soon.See you soon.</p>
            </div>
        </div>
     </div>
