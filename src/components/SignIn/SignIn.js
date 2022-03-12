@@ -6,7 +6,6 @@ const SignIn=()=>
     return(
         <div className="container">
         <div className="c1">
-        <img className="bg" src={require('./pexels-photo-2739078.jpeg')}  alt=""/>
         </div>
         <div className="c2">
             <div className="start">
