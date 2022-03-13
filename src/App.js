@@ -6,9 +6,10 @@ import SignIn from "./components/SignIn/SignIn";
 import CardList from "./components/Cards/CardList";
 import About from "./components/About/About";
 import Register from "./components/Register/Register";
-import About from "./components/About/About"
 import Schemes from "./components/CardsPages/Schemes";
+import { useState } from 'react';
 class App extends Component {
+ 
   constructor() {
     super();
     this.state = {
@@ -16,6 +17,27 @@ class App extends Component {
       isSignedIn: false
     };
     this.onRouteChange = this.onRouteChange.bind(this);
+  }
+
+  handleOnSubmit = async (e) => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    e.preventDefault();
+    let result = await fetch(
+    'http://localhost:5000/register', {
+        method: "post",
+        body: JSON.stringify({ name, email }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    result = await result.json();
+    console.warn(result);
+    if (result) {
+        alert("Data saved successfully");
+        setEmail("");
+        setName("");
+    }
   }
 
   onRouteChange = (route) => {
@@ -41,7 +63,7 @@ class App extends Component {
         ?  <SignIn onRouteChange={this.onRouteChange}/>
           : 
           (this.state.route==='register'
-?   <Register onRouteChange={this.onRouteChange}/>
+?   <Register handleOnSubmit={this.handleOnSubmit} onRouteChange={this.onRouteChange}/>
 : <Schemes/> 
 )
           )

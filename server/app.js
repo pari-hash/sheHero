@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 require('dotenv').config();
+const knex = require("knex");
 
 //import routes
 const authRoutes = require('./routes/auth');

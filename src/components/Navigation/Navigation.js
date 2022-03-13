@@ -5,7 +5,7 @@ const Navigation = ({onRouteChange,isSignedIn}) => {
     <div >
     <nav style={{ display:'flex',justifyContent:'space-between' }}>
          <nav style={{ display:'flex',justifyContent: "flex-start"}}>
-        <p className="f3 link dim black pointer"><img src={require('./logo - Copy.png')} style={{height:'6rem',width:'10rem',padding:'2px',margin:'0px'}}/></p>
+        <p onClick ={()=>onRouteChange('home')} className="f3 link dim black pointer"><img src={require('./logo - Copy.png')} style={{height:'6rem',width:'10rem',padding:'2px',margin:'0px'}}/></p>
       </nav>
       <nav style={{ display:'flex',justifyContent: "center" }}>
         <p className="f3 link dim black pa3 pointer" style={{color:'rgb(189, 218, 165)'}}>Jobs</p>
