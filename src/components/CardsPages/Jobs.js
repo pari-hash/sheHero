@@ -20,7 +20,7 @@ const Jobs=() =>{
         <Card.Img
           class="card-img-side"
           variant="top"
-          src="https://seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.pn"
+          src="https://seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.png"
         />
         <Card.Body class="card-body">
           <div className="card-title" style={{ marginBottom: "0px" }}>
