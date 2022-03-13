@@ -20,9 +20,9 @@ const Footer = () => (
           reiciendis tenetur natus, magnam sequi quasi sed!
         </div>
         <div className="social">
-          <a
+          <a 
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/arushi2715/SafeEnd" 
           >
             <FaGithub />
           </a>
