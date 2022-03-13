@@ -6,13 +6,12 @@ import { FiMail } from "react-icons/fi";
 import "./footer.styles.css";
 
 const Footer = () => (
-  <div className="footer">
+  // style={{color:'#fedcb0'}}
+  <div className="footer" >
     <main />
     <footer>
       <div className="footer__inner">
-        {/* <div className="logo">Logo</div> */}
-        {/* <nav> */}
-        {/* <a href>© SafeEnd</a> */}
+   
         <div className="site-name">SheHero</div>
         <div className="tagline">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at
