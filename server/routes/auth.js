@@ -10,7 +10,7 @@ const JWT_SECRET = require('../config/env');
 //ROUTE - 1
 //signup
 //Create a user using : POST "/api/auth/createuser" - No login required
-router.post('/createuser', [
+router.post('/register', [
     body('name', 'Enter a valid name!').isLength({ min: 3 }),
     body('email', 'Enter a valid email!').isEmail(),
     body('password', 'Password must be atleast 5 characters!').isLength({ min: 5 })
@@ -58,7 +58,7 @@ router.post('/createuser', [
 
 //ROUTE - 2
 //Authenticate a user using : POST "/api/auth/login"
-router.post('/register', [
+router.post('/signIn', [
     body('email', 'Enter a valid email!').isEmail(),
     body('password', "Can't be blank").exists()
 ], async (req, res) => {

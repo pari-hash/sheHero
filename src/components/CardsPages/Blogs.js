@@ -6,7 +6,7 @@ import "./CardPages.styles.css";
 
 const Blogs=()=> {
   return (
-    <div id="small2" style={{background:'#385b66'}}>
+    <div id="small2">
       <h1 class="heading">List of some inspiring and insightful blogs</h1>
 
       <Card
