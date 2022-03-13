@@ -4,9 +4,6 @@ import './SignIn.css';
 const SignIn=({onRouteChange})=>
 {
     return(
-        <div className="container" style={{  background: '#385b66' }}>
-        <div className="c1" style={{  background: '#385b66' }}>
-        </div>
         <div className="c2" style={{  background: '#385b66' }}>
             <div className="start" style={{  background: '#385b66' }}>
                 <h1><span className="auto-i"></span></h1>
@@ -31,7 +28,6 @@ const SignIn=({onRouteChange})=>
                 <div><button onClick={()=>onRouteChange('register')}  className="submit up">SignUp</button></div>
             </div>
         </div>
-    </div>
     );
 }
 

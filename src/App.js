@@ -66,7 +66,6 @@ class App extends Component {
             <CardList onRouteChange={this.onRouteChange}/>
 
             <About />
-            <Footer/>
 
           </div>
        : (this.state.route === "signIn" ? 
@@ -84,6 +83,7 @@ class App extends Component {
           <Opportunities />:<Blogs />
          ))))))
     }        
+            <Footer/>
     </div>
     );
   }

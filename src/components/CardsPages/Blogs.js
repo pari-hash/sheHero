@@ -26,11 +26,8 @@ const Blogs = () => {
           <div className="card-title">
             <h2> The Importance of Networking & 5 Networking Tips </h2>
           </div>
-          <div style={{ marginTop: "10px", fontSize: "20px" }}>
-            There’s no denying the power a strong professional network can have
-            over your career success. Networking will help you develop and
-            improve your skill set and stay on top of the latest trends in your
-            industry and job market.
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
+          There’s no denying the power a strong professional network can have over your career success. Networking will help you develop and improve your skill set and stay on top of the latest trends in your industry and job market.
           </div>
           <br />
           <Button
@@ -41,7 +38,9 @@ const Blogs = () => {
               width: "14rem",
             }}
           >
-            Link to the blog
+            Link to the website
+            <br/>
+           
           </Button>
         </Card.Body>
       </Card>
