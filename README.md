@@ -8,6 +8,8 @@
 
 Although attempts are being made to improve diversity and close the gender gap in engineering fields, many women are still unaware of these opportunities and thus are unable to make the most out of them. SheHero aims to address this issue. We want to make these opportunities and resources available to everyone in one place. We wish to make all resources accessible to everyone to empower and encourage women to pursue STEM fields. Furthermore, we provide other features like blogs for women to read and gain wonderful insights from other women through their experiences and a platform to talk about topics that are generally considered taboo.The blogs are added in an attemp to motivate women, boost their confidence and provide knowledge and tips to excel in personal and professional life! We have also provided details of NGOs and helpline numbers to help women who are in dire need of it.
 
+Link for the website (https://sheheroes.herokuapp.com/)
+
 ## Features
 - **Jobs**: Women out there searching for jobs can find a list of job options easily in one place.
 - **Opportunities**: Women new to the tech field and looking for tech-related opportunities like scholarships, mentorships, fellowships, hackathons, open-source and many more.
