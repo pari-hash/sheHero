@@ -7,7 +7,7 @@ import "./CardPages.styles.css";
 function Schemes() {
   return (
     <div id="small2">
-      <h1 class="heading">List of all Government Schemes for Women</h1>
+      <h1 class="heading">List of all NGOs and Helpline Numbers</h1>
 
       <Card
         className="card-list"
