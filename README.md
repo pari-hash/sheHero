@@ -1,4 +1,8 @@
  <h1 align="center">SheHero</h1>
+  <p align="center">
+ Unite and make a difference.
+   <br />
+  </p>
 
 ![image](https://user-images.githubusercontent.com/78213881/158041811-76f16747-eab0-43f1-8bde-07fa6a74d726.png)
 
