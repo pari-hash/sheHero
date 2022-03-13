@@ -28,6 +28,7 @@ const Blogs=()=> {
           </div>
           <div style={{marginTop:'10px', fontSize: '20px'}}>
           </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
@@ -58,6 +59,7 @@ const Blogs=()=> {
           <div style={{marginTop:'10px', fontSize: '20px'}}>
           
           </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
@@ -96,6 +98,7 @@ const Blogs=()=> {
             style={{ backgroundColor: "#9ab981", color: "#000" }}
           >
             Link to the website
+            <br/>
           </Button>
         </Card.Body>
       </Card>

@@ -31,6 +31,7 @@ const Opportunities=()=> {
             <br />
             Eligibility: Women (students and professionals)
           </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem'}}
@@ -66,6 +67,7 @@ const Opportunities=()=> {
             <br />
             Eligibility: Open to all.
           </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem' }}
@@ -102,6 +104,7 @@ const Opportunities=()=> {
             <br/>
             Eligibility: Women and non-binary
           </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981",  height: '2.3rem', width: '14rem' }}
