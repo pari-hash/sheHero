@@ -1,4 +1,4 @@
-# SheHero
+ <h1 align="center">SheHero</h1>
 
 Although attempts are being made to improve diversity and close the gender gap in engineering fields, many women are still unaware of these opportunities and thus are unable to make the most of them. SheHero aims to address this issue. We want to make these opportunities and resources available to everyone in one place. We wish to make all resources accessible to everyone to empower and encourage women to pursue STEM fields. Furthermore, we provide other features like blogs for women to read and gain wonderful insights from other women through their experiences and a platform to talk about topics that are generally considered taboo. Users can also 
 
