@@ -23,11 +23,12 @@ const Blogs=()=> {
           src="https://miro.medium.com/max/1400/1*Xn15-5EnxtrwWq4LruGuQQ.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">
+          <div className="card-title">
           The Importance of Networking & 5 Networking Tips
-          </Card.Title>
-          <Card.Text>
-          </Card.Text>
+          </div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
+          </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
@@ -54,10 +55,11 @@ const Blogs=()=> {
           src="https://www.vulvani.com/wp-content/uploads/2020/02/Screenshot-2020-02-17-15.18.11.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Period Pride: Fighting Menstruation Taboos</Card.Title>
-          <Card.Text>
+          <div className="card-title">Period Pride: Fighting Menstruation Taboos</div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
           
-          </Card.Text>
+          </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
@@ -84,17 +86,19 @@ const Blogs=()=> {
           src="https://miro.medium.com/max/1400/0*xVkViRmCNtnvPz55"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">
+          <div className="card-title">
           All Women Deserve Respect
 
-          </Card.Title>
-          <Card.Text>
-          </Card.Text>
+          </div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
+          </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
           >
             Link to the website
+            <br/>
           </Button>
         </Card.Body>
       </Card>

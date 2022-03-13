@@ -23,8 +23,10 @@ const Schemes=()=> {
           src="https://media.globalcitizen.org/thumbnails/a9/d5/a9d54cf0-8450-4c71-b6fc-f810eff8aa91/screen_shot_2017-12-08_at_160104.png__652.0x650.0_crop_subject_location-326%2C324_subsampling-2_upscale.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Guria India</Card.Title>
-          <Card.Text>
+          <div className="card-title">
+            <h2>Guria India</h2>
+            </div>
+            <div style={{marginTop:'10px', fontSize: '20px'}}>
             Guria India’s approach is to focus on rescue and legal intervention.
             Due to the stigma surrounding sexual assault, it helps the victim
             with all the necessities to fight their case starting from filing an
@@ -33,7 +35,8 @@ const Schemes=()=> {
             justice, but they also provide counseling and provide victims with
             financial support. Your contribution will support an abuse survivor
             to get access to legal aid and counseling.
-          </Card.Text>
+          </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
@@ -60,8 +63,11 @@ const Schemes=()=> {
           src="https://crowdfunding.actionaidindia.org/wp-content/uploads/2019/02/SWAV-Mobile-Banner-1.jpg"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">ActionAid India</Card.Title>
-          <Card.Text>
+          <div className="card-title">
+            <h2>ActionAid India
+              </h2>
+            </div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
             ActionAid India is part of a global federation and a full affiliate
             of ActionAid International. Gauravi is the 24×7 one-stop crisis
             center of ActionAid. The center caters to domestic and sexual
@@ -72,8 +78,10 @@ const Schemes=()=> {
             They provide counseling and also run a shelter home for women.
             Donating to this program will help women overcome their trauma
             through counseling.
-          </Card.Text>
+          </div>
+          <br/>
           <Button
+         
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
           >
@@ -99,8 +107,10 @@ const Schemes=()=> {
           src="https://pbs.twimg.com/media/DxaHqhyW0AAOMnA.jpg"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Chhanv Foundation</Card.Title>
-          <Card.Text>
+          <div className="card-title">
+            <h2>Chhanv Foundation</h2>
+            </div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
             Chhanv Foundation is a Non-Profit Organisation in India working for
             the rehabilitation of acid attack survivors. Chhanv Foundation
             raised the unheard voices of acid attack survivors through its
@@ -109,7 +119,8 @@ const Schemes=()=> {
             providing Medical Assistance, Legal Assistance, Education help then
             at last but not least by providing the Employment at Cafe Sheroes
             Hangout located in Agra & Lucknow respectively.
-          </Card.Text>
+          </div>
+          <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981", color: "#000" }}
