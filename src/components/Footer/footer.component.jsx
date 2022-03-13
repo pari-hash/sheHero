@@ -10,9 +10,7 @@ const Footer = () => (
     <main />
     <footer>
       <div className="footer__inner">
-        {/* <div className="logo">Logo</div> */}
-        {/* <nav> */}
-        {/* <a href>© SafeEnd</a> */}
+   
         <div className="site-name">SheHero</div>
         <div className="tagline">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at

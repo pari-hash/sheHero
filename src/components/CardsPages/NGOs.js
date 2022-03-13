@@ -4,7 +4,7 @@ import { Card, ListGroup, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./CardPages.styles.css";
 
-function Schemes() {
+const Schemes=()=> {
   return (
     <div id="small2">
       <h1 class="heading">List of all NGOs and Helpline Numbers</h1>

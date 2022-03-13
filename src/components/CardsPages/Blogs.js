@@ -4,9 +4,9 @@ import { Card, ListGroup, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./CardPages.styles.css";
 
-function Schemes() {
+const Blogs=()=> {
   return (
-    <div id="small2">
+    <div id="small2" style={{background:'#385b66'}}>
       <h1 class="heading">List of some inspiring and insightful blogs</h1>
 
       <Card
@@ -104,4 +104,4 @@ function Schemes() {
   );
 }
 
-export default Schemes;
+export default Blogs;
