@@ -39,7 +39,7 @@ const Schemes=()=> {
           <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem'}}
           >
             Link to the website
           </Button>
@@ -83,7 +83,7 @@ const Schemes=()=> {
           <Button
          
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981",height: '2.3rem', width: '14rem' }}
           >
             Link to the website
           </Button>
@@ -123,7 +123,7 @@ const Schemes=()=> {
           <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem' }}
           >
             Link to the website
           </Button>

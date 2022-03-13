@@ -13,7 +13,7 @@ const CardList = ({onRouteChange}) => {
       <div onClick ={()=>onRouteChange('Opportunities')}className="tc dib br3 pa3 ma3 grow bw3 shadow-5" style={{backgroundColor:'rgb(189, 218, 165)',width:'31%'}}>
            <img style={{backgroundColor:'rgb(189, 218, 165)'}} alt='robots' src={require('./opportunity.png')}/>
            <div style={{color:"black",backgroundColor:'rgb(189, 218, 165)'}}>
-               <h2 style={{backgroundColor:'rgb(189, 218, 165)'}}>Opportunity</h2>
+               <h2 style={{backgroundColor:'rgb(189, 218, 165)'}}>Opportunities</h2>
                <p style={{backgroundColor:'rgb(189, 218, 165)'}}className="f5">Women new to tech field and looking for tech-related opportunities can be find out here.</p>
            </div>
        </div>

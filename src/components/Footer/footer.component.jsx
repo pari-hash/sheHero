@@ -12,42 +12,39 @@ const Footer = () => (
     <footer>
       <div className="footer__inner">
    
-        <div className="site-name">SheHero</div>
+        <div className="site-name">sheHero</div>
         <div className="tagline">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at
-          laboriosam, repudiandae officiis velit
-          <br></br> quisquam iusto nulla ab a doloremque minima quo explicabo
-          reiciendis tenetur natus, magnam sequi quasi sed!
+          Unite and make a difference.
         </div>
         <div className="social">
           <a 
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd" 
+            href="https://github.com/pari-hash/sheHacks/blob/master/README.md"
           >
             <FaGithub />
           </a>
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks"
           >
             <FaInstagram />
           </a>
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks"
           >
             <FaLinkedin />
           </a>
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks"
           >
             <FiMail />
           </a>
         </div>
         <div className="love">Made with love by Panimo.</div>
         <div className="copyright">
-          Copyright© SafeEnd. All rights reserved.
+          Copyright© sheHero. All rights reserved.
         </div>
         {/* </nav> */}
       </div>
