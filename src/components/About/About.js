@@ -44,7 +44,7 @@ function Carousel() {
                         {/* additionally added  */}
                     </div>
                     <div className="carousel-item ">
-                        <img className="d-block w-100" src={require('./she2.jpg')} style={{ height: '400px', objectFit: 'contain' }} alt="Third slide" />
+                        <img className="d-block w-100" src={require('./she4.jpg')} style={{ height: '400px', objectFit: 'contain' }} alt="Third slide" />
                         {/* additionally added  */}
                         <div class="carousel-caption d-none d-md-block">
                             <span style={{ backgroundColor: '#202020', fontSize: '20px' }}>Crisis Hotlines</span>

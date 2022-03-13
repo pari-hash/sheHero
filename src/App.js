@@ -1,4 +1,5 @@
-import { React, Component } from "react";
+
+import {React,  Component } from "react";
 // import { BrowserRouter as Routes, Switch, Route } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/Home/Home";
@@ -12,8 +13,7 @@ import NGOs from "./components/CardsPages/NGOs";
 import Opportunities from "./components/CardsPages/Opportunities";
 import Jobs from "./components/CardsPages/Jobs";
 import Footer from './components/Footer/footer.component'
-
-import { useState } from "react";
+import { useState } from 'react';
 class App extends Component {
   constructor() {
     super();
@@ -64,8 +64,10 @@ class App extends Component {
           <div>
             <Home />
             <CardList />
+
             <About />
             <Footer/>
+
           </div>
        : (this.state.route === "signIn" ? 
           <SignIn onRouteChange={this.onRouteChange} />
@@ -81,8 +83,8 @@ class App extends Component {
          : (this.state.route === "Opportunities" ? 
           <Opportunities />:<Blogs />
          ))))))
-    }
-      </div>
+    }        
+    </div>
     );
   }
 }
