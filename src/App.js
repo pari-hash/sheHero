@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Register from "./components/Register/Register";
 import Schemes from "./components/CardsPages/Schemes";
 import { useState } from 'react';
+import Footer from './components/Footer/footer.component'
 class App extends Component {
  
   constructor() {
@@ -65,6 +66,7 @@ class App extends Component {
           (this.state.route==='register'
 ?   <Register handleOnSubmit={this.handleOnSubmit} onRouteChange={this.onRouteChange}/>
 : <Schemes/> 
+
 )
           )
   }
