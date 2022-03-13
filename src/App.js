@@ -6,7 +6,7 @@ import SignIn from "./components/SignIn/SignIn";
 import CardList from "./components/Cards/CardList";
 import About from "./components/About/About";
 import Register from "./components/Register/Register";
-import About from "./components/About/About"
+// import About from "./components/About/About"
 import Schemes from "./components/CardsPages/Schemes";
 class App extends Component {
   constructor() {
