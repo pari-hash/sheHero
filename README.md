@@ -48,8 +48,8 @@ npm start
 - Weekly newsletters to notify women about upcoming opportunities or newly published resources, based on the user's interests. 
 - Expand the resources to women outside the STEM field.
 
-##Team Members
+## Team Members
 - [Paridhi Singhal](https://github.com/pari-hash)
 - [Nirupama Singh](https://github.com/Niru8449)
 - [Mounica Sruthi](https://github.com/mounicasruthi)
-- [Anamika Mallik](https://github.com/anamika1804)
+- [Anamika Mallick](https://github.com/anamika1804)
