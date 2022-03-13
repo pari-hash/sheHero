@@ -14,10 +14,7 @@ const Footer = () => (
    
         <div className="site-name">SheHero</div>
         <div className="tagline">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at
-          laboriosam, repudiandae officiis velit
-          <br></br> quisquam iusto nulla ab a doloremque minima quo explicabo
-          reiciendis tenetur natus, magnam sequi quasi sed!
+          Unite and make a difference.
         </div>
         <div className="social">
           <a
