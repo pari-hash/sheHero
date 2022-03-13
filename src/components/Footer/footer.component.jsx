@@ -19,7 +19,7 @@ const Footer = () => (
         <div className="social">
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks/blob/master/README.md"
           >
             <FaGithub />
           </a>
