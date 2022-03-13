@@ -4,7 +4,7 @@ import './SignIn.css';
 const SignIn=({onRouteChange})=>
 {
     return(
-        <div className="container">
+        <div className="container" style={{  background: '#385b66' }}>
         <div className="c1">
         </div>
         <div className="c2">
