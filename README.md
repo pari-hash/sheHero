@@ -24,8 +24,7 @@ Although attempts are being made to improve diversity and close the gender gap i
 
 
 ## Local Setup
- - Fork this repository.
- - Clone the repository
+ - Fork the repository and clone it.
  ```sh
  git clone 
  ```
@@ -34,7 +33,7 @@ Although attempts are being made to improve diversity and close the gender gap i
  ```sh
 npm install
  ```
- - Run the project locally
+ - Run the project locally.
   ```sh
 npm start
  ```
