@@ -4,7 +4,7 @@ import './Register.css'
 const Register=({ onRouteChange,handleOnSubmit })=>
 {
     return(
-        <form action="">
+        <form action="" style={{  background: '#385b66' }}>
         <div className="container" style={{  background: '#385b66' }}>
             <div className="start">
                 <h1>Hello...</h1> 
