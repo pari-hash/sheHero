@@ -27,13 +27,16 @@ const Blogs=()=> {
           The Importance of Networking & 5 Networking Tips
           </div>
           <div style={{marginTop:'10px', fontSize: '20px'}}>
+          There’s no denying the power a strong professional network can have over your career success. Networking will help you develop and improve your skill set and stay on top of the latest trends in your industry and job market.
           </div>
           <br/>
           <Button
             variant="secondary"
             style={{ backgroundColor: "#9ab981",height: '2.3rem', width: '14rem' }}
           >
-            Link to the blog
+            Link to the website
+            <br/>
+           
           </Button>
         </Card.Body>
       </Card>
@@ -57,7 +60,7 @@ const Blogs=()=> {
         <Card.Body class="card-body">
           <div className="card-title">Period Pride: Fighting Menstruation Taboos</div>
           <div style={{marginTop:'10px', fontSize: '20px'}}>
-          
+          “Menstruation is a natural human bodily process. It is as natural as breathing, sleeping or digesting food.”
           </div>
           <br/>
           <Button
@@ -91,6 +94,8 @@ const Blogs=()=> {
 
           </div>
           <div style={{marginTop:'10px', fontSize: '20px'}}>
+          We live in a modern world today but our thoughts are still stuck to the age old stereotypes. There’s a serious need for us to change the way we think. All women deserve respect in all cases. And there is no scope of ifs and buts in this statement.
+
           </div>
           <br/>
           <Button
