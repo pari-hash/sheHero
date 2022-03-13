@@ -23,17 +23,17 @@ function Opportunities() {
           src="https://seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Google CodeJam IO</Card.Title>
-          <Card.Text>
+          <div className="card-title" style={{marginBottom:'0px'}}><h2>Google CodeJam IO</h2></div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
             A coding contest by Google exclusively for women. The top 150 on the
             scoreboard will receive a ticket and a stipend to participate in
             virtual Google I/O.
             <br />
             Eligibility: Women (students and professionals)
-          </Card.Text>
+          </div>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem'}}
           >
             Link to the website
           </Button>
@@ -57,18 +57,18 @@ function Opportunities() {
           src="https://iconape.com/wp-content/png_logo_vector/outreachy-bot-avatar.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Outreachy</Card.Title>
-          <Card.Text>
+        <div className="card-title"><h2>Outreachy</h2></div>
+        <div style={{marginTop:'10px', fontSize: '20px'}}>
             Outreachy provides internships in open source and open science.
             Outreachy provides internships to people subject to systemic bias
             and impacted by underrepresentation in the technical industry where
             they are living.
             <br />
             Eligibility: Open to all.
-          </Card.Text>
+          </div>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem' }}
           >
             Link to the website
           </Button>
@@ -92,19 +92,19 @@ function Opportunities() {
           src="https://mmendy.com/RGSoC.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">
+        <div className="card-title">
             Rails Girls Summer of Code
-          </Card.Title>
-          <Card.Text>
+          </div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
             Rails Girls Summer of Code is a global fellowship program for women
             and non-binary coders. Students receive a three-month scholarship to
             work on existing Open Source projects and expand their skill set.
             <br/>
             Eligibility: Women and non-binary
-          </Card.Text>
+          </div>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981",  height: '2.3rem', width: '14rem' }}
           >
             Link to the website
           </Button>

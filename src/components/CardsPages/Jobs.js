@@ -23,20 +23,24 @@ function Jobs() {
           src="https://seeklogo.com/images/G/google-logo-28FA7991AF-seeklogo.com.pn"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Google STEP Intern</Card.Title>
-          <Card.Text>
+          <div className="card-title" style={{ marginBottom: "0px" }}>
+            <h2>Google STEP Intern</h2>
+          </div>
+          <div style={{ marginTop: "10px", fontSize: "20px" }}>
             The internship program has a focus of providing development
             opportunities to students from groups historically underrepresented
             in tech, through technical training and professional development.
             <br />
             Eligibility: Second-year Bachelor's student majoring in Computer
             Science or a related field.
-          </Card.Text>
+          </div>
+          <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem'}}
           >
             Link to the website
+            <br/>
           </Button>
         </Card.Body>
       </Card>
@@ -58,17 +62,18 @@ function Jobs() {
           src="https://seeklogo.com/images/A/atlassian-logo-DF2FCF6E4D-seeklogo.com.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Hack@Home by Atlassian</Card.Title>
-          <Card.Text>
+          <div className="card-title"><h2>Hack@Home by Atlassian</h2></div>
+          <div style={{marginTop:'10px', fontSize: '20px'}}>
             A 4-day virtual hackathon all about exploring the world of computer
             science from the comfort of your home and donate to various COVID-19
             and social justice nonprofits.
             <br />
             Eligibility: High school and undergraduates students
-          </Card.Text>
+          </div>
+          <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem'}}
           >
             Link to the website
           </Button>
@@ -92,16 +97,18 @@ function Jobs() {
           src="https://mpng.subpng.com/20180806/swf/kisspng-logo-microsoft-corporation-brand-windows-server-20-5b6885e2de9281.4204193815335766749117.jpg"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">Microsoft Codess</Card.Title>
-          <Card.Text>
+          <div className="card-title">
+            <h2>Microsoft Codess</h2></div>
+            <div style={{marginTop:'10px', fontSize: '20px'}}>  
             Codess aims to inspire female coders and help them achieve their
             professional goals. Through networking events, mentoring and sharing
             advice and experiences, we hope to offer a forum to women unlike any
             other.
-          </Card.Text>
+          </div>
+          <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981",height: '2.3rem', width: '14rem' }}
           >
             Link to the website
           </Button>
