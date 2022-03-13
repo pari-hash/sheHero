@@ -17,7 +17,7 @@ const Footer = () => (
           Unite and make a difference.
         </div>
         <div className="social">
-          <a
+          <a 
             className="social-icon"
             href="https://github.com/pari-hash/sheHacks/blob/master/README.md"
           >

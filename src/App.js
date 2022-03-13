@@ -63,7 +63,7 @@ class App extends Component {
         {this.state.route === "home" ? 
           <div>
             <Home />
-            <CardList />
+            <CardList onRouteChange={this.onRouteChange}/>
 
             <About />
             <Footer/>

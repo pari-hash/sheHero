@@ -8,7 +8,7 @@ const SignIn=({onRouteChange})=>
         <div className="c1" style={{  background: '#385b66' }}>
         </div>
         <div className="c2" style={{  background: '#385b66' }}>
-            <div className="start">
+            <div className="start" style={{  background: '#385b66' }}>
                 <h1><span className="auto-i"></span></h1>
                 <p style={{color: 'rgb(189, 218, 165)'}}>Welcome Back!</p>
             </div>
