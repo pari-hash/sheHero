@@ -12,39 +12,39 @@ const Footer = () => (
     <footer>
       <div className="footer__inner">
    
-        <div className="site-name">SheHero</div>
+        <div className="site-name">sheHero</div>
         <div className="tagline">
           Unite and make a difference.
         </div>
         <div className="social">
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks"
           >
             <FaGithub />
           </a>
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks"
           >
             <FaInstagram />
           </a>
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks"
           >
             <FaLinkedin />
           </a>
           <a
             className="social-icon"
-            href="https://github.com/arushi2715/SafeEnd"
+            href="https://github.com/pari-hash/sheHacks"
           >
             <FiMail />
           </a>
         </div>
         <div className="love">Made with love by Panimo.</div>
         <div className="copyright">
-          Copyright© SafeEnd. All rights reserved.
+          Copyright© sheHero. All rights reserved.
         </div>
         {/* </nav> */}
       </div>
