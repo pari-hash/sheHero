@@ -10,7 +10,7 @@ const SignIn=({onRouteChange})=>
         <div className="c2" style={{  background: '#385b66' }}>
             <div className="start">
                 <h1><span className="auto-i"></span></h1>
-                <p>Welcome Back!</p>
+                <p style={{color: 'rgb(189, 218, 165)'}}>Welcome Back!</p>
             </div>
             <form method="POST" >
                 <div className="input"><svg className="svg-icon" viewBox="0 0 20 20">
