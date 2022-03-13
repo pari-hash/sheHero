@@ -6,7 +6,8 @@ import { FiMail } from "react-icons/fi";
 import "./footer.styles.css";
 
 const Footer = () => (
-  <div className="footer">
+  // style={{color:'#fedcb0'}}
+  <div className="footer" >
     <main />
     <footer>
       <div className="footer__inner">
