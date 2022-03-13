@@ -2,13 +2,13 @@ import React from "react";
 import { render } from "react-dom";
 import { Card, ListGroup, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import "./style.css";
 import "./CardPages.styles.css";
 
-const Schemes=() =>{
+function Schemes() {
   return (
     <div id="small2">
-      <h1 className="heading">List of all Government Schemes for Women</h1>
+      <h1 class="heading">List of all Government Schemes for Women</h1>
+
       <Card
         className="card-list"
         style={{
@@ -18,15 +18,15 @@ const Schemes=() =>{
         }}
       >
         <Card.Img
-          className="card-img-side"
+          class="card-img-side"
           variant="top"
           src="https://www.aitm.edu.in/wp-content/uploads/2020/08/AICTE.png"
         />
-        <Card.Body className="card-body">
-          <Card.Title className="card-title" style={{marginBottom:'0px'}}>
+        <Card.Body class="card-body">
+          <Card.Title className="card-title">
             Pragati Scholarship: AICTE Scholarship Scheme to Girl Child
           </Card.Title>
-          <Card.Text style={{marginTop:'0px'}}>
+          <Card.Text>
             Scholarship/Contingency is awarded to meritorious girls taking
             admission in AICTE approved Technical institution at Degree/
             Diploma. Total 10000 scholarship are given @ Rs 50000 as incidentals
@@ -34,7 +34,7 @@ const Schemes=() =>{
           </Card.Text>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981" }}
+            style={{ backgroundColor: "#9ab981", color: "#000" }}
           >
             Link to the website
           </Button>
@@ -53,11 +53,11 @@ const Schemes=() =>{
         }}
       >
         <Card.Img
-          className="card-img-side"
+          class="card-img-side"
           variant="top"
           src="https://www.aitm.edu.in/wp-content/uploads/2020/08/AICTE.png"
         />
-        <Card.Body className="card-body">
+        <Card.Body class="card-body">
           <Card.Title className="card-title">AICTE Lilavati Award</Card.Title>
           <Card.Text>
             AICTE intends to seek applications for AICTEs LILAVATI AWARD-2021-22
@@ -68,7 +68,7 @@ const Schemes=() =>{
           </Card.Text>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981" }}
+            style={{ backgroundColor: "#9ab981", color: "#000" }}
           >
             Link to the website
           </Button>
@@ -87,11 +87,11 @@ const Schemes=() =>{
         }}
       >
         <Card.Img
-          className="card-img-side"
+          class="card-img-side"
           variant="top"
           src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg"
         />
-        <Card.Body className="card-body">
+        <Card.Body class="card-body">
           <Card.Title className="card-title">
             Begum Hazrat Mahal National Scholarship
           </Card.Title>
@@ -106,7 +106,7 @@ const Schemes=() =>{
           </Card.Text>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981"}}
+            style={{ backgroundColor: "#9ab981", color: "#000" }}
           >
             Link to the website
           </Button>
