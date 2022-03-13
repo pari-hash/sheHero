@@ -91,7 +91,7 @@ const Schemes=() =>{
         <Card.Img
           className="card-img-side"
           variant="top"
-          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg"
+          src="https://mcmscache.epapr.in/post_images/website_372/post_18704495/thumb.jpg"
         />
         <Card.Body className="card-body">
           <div className="card-title">
