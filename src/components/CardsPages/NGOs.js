@@ -7,7 +7,7 @@ import "./CardPages.styles.css";
 function Schemes() {
   return (
     <div id="small2">
-      <h1 class="heading">List of all Government Schemes for Women</h1>
+      <h1 class="heading">List of all NGOs and Helpline Numbers</h1>
 
       <Card
         className="card-list"
@@ -20,17 +20,19 @@ function Schemes() {
         <Card.Img
           class="card-img-side"
           variant="top"
-          src="https://www.aitm.edu.in/wp-content/uploads/2020/08/AICTE.png"
+          src="https://media.globalcitizen.org/thumbnails/a9/d5/a9d54cf0-8450-4c71-b6fc-f810eff8aa91/screen_shot_2017-12-08_at_160104.png__652.0x650.0_crop_subject_location-326%2C324_subsampling-2_upscale.png"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">
-            Pragati Scholarship: AICTE Scholarship Scheme to Girl Child
-          </Card.Title>
+          <Card.Title className="card-title">Guria India</Card.Title>
           <Card.Text>
-            Scholarship/Contingency is awarded to meritorious girls taking
-            admission in AICTE approved Technical institution at Degree/
-            Diploma. Total 10000 scholarship are given @ Rs 50000 as incidentals
-            each year.
+            Guria India’s approach is to focus on rescue and legal intervention.
+            Due to the stigma surrounding sexual assault, it helps the victim
+            with all the necessities to fight their case starting from filing an
+            FIR to helping them collect evidence. Guria lawyers help prepare the
+            victims for the court. Not only does the NGO help women get legal
+            justice, but they also provide counseling and provide victims with
+            financial support. Your contribution will support an abuse survivor
+            to get access to legal aid and counseling.
           </Card.Text>
           <Button
             variant="secondary"
@@ -55,16 +57,21 @@ function Schemes() {
         <Card.Img
           class="card-img-side"
           variant="top"
-          src="https://www.aitm.edu.in/wp-content/uploads/2020/08/AICTE.png"
+          src="https://crowdfunding.actionaidindia.org/wp-content/uploads/2019/02/SWAV-Mobile-Banner-1.jpg"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">AICTE Lilavati Award</Card.Title>
+          <Card.Title className="card-title">ActionAid India</Card.Title>
           <Card.Text>
-            AICTE intends to seek applications for AICTEs LILAVATI AWARD-2021-22
-            based on the theme “Women Empowerment” from the eligible teams of
-            AICTE approved institutions, who have undertaken remarkable
-            intervention for the cause and made an impact that showcases their
-            work under eight different sub-themes.
+            ActionAid India is part of a global federation and a full affiliate
+            of ActionAid International. Gauravi is the 24×7 one-stop crisis
+            center of ActionAid. The center caters to domestic and sexual
+            violence victims of any age including minor boys. The victims are
+            provided with counseling, intervention, legal help, medical help,
+            shelter home as well as social rehabilitation. Victims are not
+            forced to take legal action and are provided with all the options.
+            They provide counseling and also run a shelter home for women.
+            Donating to this program will help women overcome their trauma
+            through counseling.
           </Card.Text>
           <Button
             variant="secondary"
@@ -89,20 +96,19 @@ function Schemes() {
         <Card.Img
           class="card-img-side"
           variant="top"
-          src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg"
+          src="https://pbs.twimg.com/media/DxaHqhyW0AAOMnA.jpg"
         />
         <Card.Body class="card-body">
-          <Card.Title className="card-title">
-            Begum Hazrat Mahal National Scholarship
-          </Card.Title>
+          <Card.Title className="card-title">Chhanv Foundation</Card.Title>
           <Card.Text>
-            The Scheme of “Begum Hazrat Mahal National Scholarship” for
-            Meritorious Girl Students belonging to the Minority Communities was
-            earlier known as “Maulana Azad National Scholarship for Meritorious
-            Girls belonging Minorities” and the same was launched by the then
-            Prime Minister of India (late) Atal Bihari Vajpayee at National
-            Conference of Educational & Economic Development of Minorities held
-            on 03.05.2003 at Vigyan Bhawan, New Delhi.
+            Chhanv Foundation is a Non-Profit Organisation in India working for
+            the rehabilitation of acid attack survivors. Chhanv Foundation
+            raised the unheard voices of acid attack survivors through its
+            campaign Stop Acid Attacks in 2013. They redefined the definition of
+            rehabilitation by advocacy for the acid attacks followed by
+            providing Medical Assistance, Legal Assistance, Education help then
+            at last but not least by providing the Employment at Cafe Sheroes
+            Hangout located in Agra & Lucknow respectively.
           </Card.Text>
           <Button
             variant="secondary"
