@@ -31,7 +31,7 @@ const Blogs=()=> {
           <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981",height: '2.3rem', width: '14rem' }}
           >
             Link to the blog
           </Button>
@@ -62,7 +62,7 @@ const Blogs=()=> {
           <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem'}}
           >
             Link to the website
           </Button>
@@ -95,7 +95,7 @@ const Blogs=()=> {
           <br/>
           <Button
             variant="secondary"
-            style={{ backgroundColor: "#9ab981", color: "#000" }}
+            style={{ backgroundColor: "#9ab981", height: '2.3rem', width: '14rem'}}
           >
             Link to the website
             <br/>
